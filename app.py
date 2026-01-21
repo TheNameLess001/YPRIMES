@@ -143,7 +143,7 @@ with st.sidebar:
     st.info(f"📆 Jours ouvrés : **{business_days}**")
     
     # Targets Dynamiques
-    sales_target_acq = round(business_days * 1.9, 1)
+    sales_target_acq = round(business_days * 0.9, 1)
 
 # --- PAGE 1: SAISIE & CALCUL ---
 if page == "📝 Saisie & Calcul":
